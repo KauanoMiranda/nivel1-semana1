@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
+<!-- Instrução que define o tipo do documento. -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- Tag <head> contém as instruções para a página -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Móveis customizados</title>
 
-You can use the [editor on GitHub](https://github.com/KauanoMiranda/nivel1-semana1/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-### Markdown
+  <!-- Tag <body> é o corpo do documento, onde tem as informações que serão mostradas. -->
+  <body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    
+    
+    <div id="hero">
 
-```markdown
-Syntax highlighted code block
+      <img
+      src="https://storage.googleapis.com/golden-wind/explorer/description-assets/nivel-02/01/img1.jpeg"
+      alt="Desenho de uma pessoa vestindo uma camisa amarela em uma sala com Móveis"
+      />
+      
+      
+      <h1>Ambientes <span> únicos </span> para você!</h1>
+      <p>
+        Nós criamos ambientes <strong> exclusivos </strong> e <strong> únicos </strong>, com muito
+        bom gosto e profissionalismo, investimos tempo e
+      <span> dedicação no seu projeto </span>.
 
-# Header 1
-## Header 2
-### Header 3
+        <br>
+        <br />
 
-- Bulleted
-- List
+        Tenha <span>ambientes limpos </span> e bem decorados, transmitindo
+       <strong>elegância e finesse</strong>
+       para todo aquele que estiver ali.
 
-1. Numbered
-2. List
+        <br />
+        <br />
 
-**Bold** and _Italic_ and `Code` text
+      </p>
+    </div>
+   
 
-[Link](url) and ![Image](src)
-```
+    
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <div id="footer">
 
-### Jekyll Themes
+      <div id="line"></div>
+      
+      <a target="_blank" href="https://instagram.com/moveisparavoce"
+        >Instagram</a
+      >
+      <a href="mailto:contato@moveisparavoce.com">Fale conosco</a>
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KauanoMiranda/nivel1-semana1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <img
+      id="balls"
+      src="https://storage.googleapis.com/golden-wind/explorer/description-assets/nivel-02/01/balls.svg"
+      alt="Bolinhas alaranjadas no canto inferior direito da tela"
+    />
+  </body>
+</html>
